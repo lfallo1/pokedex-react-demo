@@ -19,15 +19,22 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Cards-list{
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Cards-list-item{
+  background: rgba(0,0,0,0.2);
+  padding: 8px;
+  border-radius: 6px;
+  margin-left: 16px;
+}
+
+.Cards-list-item-name, .Cards-list-item-type{
+  font-size: 12px;
+  color: lightgray;
+}
+
+.Cards-list-img{
+  width: 120px;
 }
